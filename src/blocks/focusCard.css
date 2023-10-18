@@ -1,0 +1,49 @@
+.focus-card {
+  height: 160px;
+  width: 540px;
+  display: flex;
+  background-color: #fff;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.focus-card:hover {
+  box-shadow: 3px 0 0.4em rgba(0, 0, 0, 0.1), -3px 0 0.4em rgba(0, 0, 0, 0.1);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.focus-card__image {
+  width: 80px;
+  height: 70px;
+  padding: 30px 0 0 30px;
+}
+
+.focus-card__container {
+  flex-direction: column;
+}
+
+.focus-card__title {
+  margin: 30px 0 0 30px;
+  color: #333;
+  font-size: 1.1em;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+.focus-card__text {
+  color: #777;
+  font-size: 14px;
+  line-height: 1.7;
+  margin: 10px 0 0 30px;
+  font-weight: 400;
+  width: 370px;
+  height: 71px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}

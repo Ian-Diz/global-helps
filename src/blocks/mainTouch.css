@@ -1,0 +1,58 @@
+.main-touch {
+  max-width: 1440px;
+  padding: 70px 0 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.main-touch__title {
+  font-size: 14px;
+  color: #aaa;
+  letter-spacing: 2px;
+  font-weight: 700;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.main-touch__subtitle {
+  line-height: 1.2em;
+  font-size: 40px;
+  letter-spacing: 3.5px;
+  font-weight: 750;
+  font-family: "Raleyway", Arial, Helvetica, sans-serif;
+  color: #333;
+  margin: 15px 0 60px 0;
+  text-align: center;
+}
+
+.main-touch__text {
+  font-size: 1.25em;
+  font-weight: 600;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  color: #333;
+  line-height: 1.1;
+}
+
+.main-touch__container {
+  height: 28px;
+  display: flex;
+  align-items: center;
+}
+
+.main-touch__email-logo {
+  width: 28px;
+  height: 28px;
+}
+
+.main-touch__email {
+  color: #1e73be;
+  text-decoration: none;
+  outline: none;
+  font-style: italic;
+  font-size: 400;
+  height: 28px;
+  margin: 0 0 0 5px;
+}

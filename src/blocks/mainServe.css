@@ -1,0 +1,56 @@
+.main-serve {
+  background-color: #f8f9f9;
+  max-width: 1440px;
+}
+
+.main-serve__title {
+  font-size: 14px;
+  color: #aaa;
+  letter-spacing: 2px;
+  font-weight: 700;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 70px 0 0 0;
+}
+
+.main-serve__subtitle {
+  line-height: 1.2em;
+  font-size: 40px;
+  letter-spacing: 3.5px;
+  font-weight: 750;
+  font-family: "Raleyway", Arial, Helvetica, sans-serif;
+  color: #333;
+  margin: 15px 0 0 0;
+  text-align: center;
+}
+
+.main-image__container {
+  display: grid;
+  grid-template-columns: repeat(4, 255px);
+  grid-template-rows: 380px;
+  gap: 0 30px;
+  max-width: 1140px;
+  margin: 60px auto 0 auto;
+  padding: 0 0 70px 0;
+}
+
+.main-image__image {
+  width: 255px;
+  height: 380px;
+}
+
+.main-image__one {
+  grid-column-start: 1;
+}
+
+.main-image__two {
+  grid-column-start: 2;
+}
+
+.main-image__three {
+  grid-column-start: 3;
+}
+
+.main-image__four {
+  grid-column-start: 4;
+}

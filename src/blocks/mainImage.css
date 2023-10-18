@@ -1,0 +1,65 @@
+.main-image {
+  background-image: url(../images/mainImage.PNG);
+  max-width: 1440px;
+  height: 671px;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+.main-image__title {
+  font-size: 75px;
+  color: #fff;
+  line-height: 1.3em;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  padding: 105px 0 0 0;
+  margin: 0;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  letter-spacing: 4px;
+}
+
+.main-image__subtitle {
+  font-size: 18px;
+  letter-spacing: 0.4px;
+  color: #fff;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  font-weight: 100;
+  font-style: italic;
+  text-align: center;
+  width: 1050px;
+  display: flex;
+  margin: 20px auto 0 auto;
+}
+
+.main-image__link {
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 700;
+  color: #fff;
+  height: 48px;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e73be;
+  border-radius: 5px;
+}
+
+.main-image__donate {
+  top: 464px;
+  left: 523px;
+  width: 130px;
+  position: absolute;
+}
+
+.main-image__india {
+  top: 464px;
+  left: 661px;
+  width: 245px;
+  position: absolute;
+}

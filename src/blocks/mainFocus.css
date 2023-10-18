@@ -1,0 +1,26 @@
+.main-focus {
+  max-width: 1440px;
+  padding: 70px 0 70px 0;
+  background-color: #f8f9f9;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-focus__title {
+  line-height: 1.2em;
+  font-size: 40px;
+  letter-spacing: 3.5px;
+  font-weight: 750;
+  font-family: "Raleyway", Arial, Helvetica, sans-serif;
+  color: #333;
+  margin: 0 0 60px 0;
+  text-align: center;
+}
+
+.main-focus__container {
+  display: grid;
+  grid-template-columns: repeat(2, 540px);
+  margin: 0 auto 0 auto;
+  padding: 0;
+  gap: 30px 30px;
+}
