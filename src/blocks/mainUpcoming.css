@@ -45,9 +45,14 @@
   width: 140px;
   height: 17px;
   font-size: 0.8em;
-  font-weight: 500;
+  font-weight: 600;
   box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.1) inset;
   line-height: 1.25;
   text-align: center;
   margin: 40px 0 0 0;
+}
+
+.main-upcoming__link:hover {
+  color: #fff;
+  background-color: #1e73be;
 }
